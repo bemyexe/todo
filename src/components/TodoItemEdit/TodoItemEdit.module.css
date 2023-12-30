@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+.todo_item_edit {
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+
+.todo_item_edit__content {
+  display: flex;
+  flex-direction: column;
+}
+.todo_item_edit_titleInput {
+  margin: 10px 10px;
+  padding: 3px;
+  border: 1px solid rgb(114, 21, 176);
+  border-radius: 6px;
+  font-family: "Cabin", sans-serif;
+}
+
+.todo_item_edit_bottom {
+  margin: 0 10px 10px 10px;
+  border-top: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo_item_edit_bodyInput {
+  margin: 10px 0;
+  padding: 3px;
+  border: 1px solid rgb(114, 21, 176);
+  border-radius: 6px;
+  font-family: "Cabin", sans-serif;
+}
+
+.todo_item_edit_bottom__btns {
+  display: flex;
+  gap: 25px;
+}

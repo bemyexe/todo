@@ -1,0 +1,32 @@
+.todo_item {
+  border: 1px solid white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background-color: blueviolet;
+}
+
+.todo_item__content {
+  display: flex;
+  flex-direction: column;
+}
+.todo_item__top {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.todo_item__top__left {
+  display: flex;
+  gap: 10px;
+}
+
+.todo_item_title {
+  font-weight: bold;
+}
+
+.todo_item__bottom {
+  margin: 0 10px;
+  padding: 10px 0;
+}
